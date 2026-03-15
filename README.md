@@ -44,9 +44,28 @@ node src/push-all.js
 
 ### 通过 OpenClaw 调用
 
+**安装此 Skill 到 OpenClaw：**
+
+```bash
+# 方式 1：从 GitHub 直接安装（推荐）
+openclaw skill install https://github.com/Kennyuy/feishu-daily-push-skill
+
+# 方式 2：克隆后本地安装
+git clone https://github.com/Kennyuy/feishu-daily-push-skill
+cd feishu-daily-push-skill
+openclaw skill link .
+```
+
+**运行推送：**
 ```bash
 openclaw skill run feishu-daily-push
 ```
+
+**OpenClaw 相关链接：**
+- OpenClaw 官网：https://openclaw.ai
+- 技能市场 (ClawHub)：https://clawhub.com
+- 文档：https://docs.openclaw.ai
+- GitHub：https://github.com/openclaw/openclaw
 
 ## 预设推送任务
 
