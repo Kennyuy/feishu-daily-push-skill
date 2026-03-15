@@ -1,0 +1,16 @@
+{
+  "name": "feishu-daily-push",
+  "version": "1.0.0",
+  "description": "飞书每日推送技能 - 向多个群组发送定时推送消息",
+  "main": "src/index.js",
+  "scripts": {
+    "run": "node src/index.js",
+    "push-all": "node src/push-all.js"
+  },
+  "keywords": ["feishu", "lark", "push", "daily", "notification"],
+  "author": "Kenny",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
